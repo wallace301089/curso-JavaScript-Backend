@@ -1,0 +1,8 @@
+// //Variaveis 
+ const numeros = 456;
+ const numeroString = "456";
+
+// console.log(numeros == numeroString)
+
+//console.log(numeros + numeroString)
+console.log (numeros + Number(numeroString))

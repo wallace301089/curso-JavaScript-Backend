@@ -1,0 +1,18 @@
+// Aprendendo a usar o String
+const text1 = "Olá, mundo!";
+const text2 = 'helo mund';
+const senha = "SuperSenha2345";
+
+// tambem podemos usar numeros como Strings
+const Testnumber = "12345";
+
+ // citação é quando usamos aspas simples e dupla na mesma frase!
+ const citacao = "Meu nome é : ";
+
+ // Concatenação 
+ // Serve para juntar textos no String. 
+ const MeuNome = "Wallace"
+
+console.log(citacao, MeuNome)
+
+

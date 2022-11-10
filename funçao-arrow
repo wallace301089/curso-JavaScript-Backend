@@ -1,0 +1,17 @@
+//função arrow( diminui o codigo e tem umma represnetação de uma flecha =>)
+
+const ApresentarArrow = (nome , idade ) => `meu nome é : ${nome}, e minha idade é : ${idade}`;
+const somaArrow =(num1 , num2) => num1 + num2;
+
+// vimos que colocamos nosso codigo em uma linha 
+// mas nem sempre será assim, veremos um exemplo que temos que usar if / else 
+
+const NumerosPequenos = (num1 , num2) =>{
+ if (num1 >= 10 || num2 >= 10){
+ return " so numeros ate 9"
+ } else{
+    return num1 + num2 ;
+ }
+}
+
+console.log(NumerosPequenos(10,5))

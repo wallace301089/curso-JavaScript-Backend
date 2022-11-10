@@ -1,0 +1,12 @@
+const nome = "wallace";
+const idade = 33;
+const cidadeNascimento = "Rio de Janeiro"
+
+// MOdo Normal 
+// const apresentacao = "meu nome é " + nome + ", eu  tenho " + idade + " , e nasci no " + cidadeNascimento;
+// console.log(apresentacao)
+ 
+// Modo Template
+
+const alteracao = `meu nome é ${nome} , eu tenho ${idade} , eu nasci ${cidadeNascimento}`;
+console.log(alteracao)
